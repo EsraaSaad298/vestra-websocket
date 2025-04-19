@@ -4,7 +4,7 @@ import json
 
 app = FastAPI()
 
-API_URL = "https://vestra-server-l4840xgrl-ess-projects-97021e3e.vercel.app/updateVestraFindLexi"
+API_URL = "https://vestra-server.vercel.app/updateVestraFindLexi"
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
